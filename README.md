@@ -3,16 +3,12 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=QingyongHu/SQN)
 [![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
-# SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds (ECCV2022)
+# Enhancing Weakly Supervised Point Cloud Semantic Segmentation via Dual Backbone Networks with Data Augmentation
 
 This is the official repository of the **Semantic Query Network (SQN)**. For technical details, please refer to:
 
-**SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds** <br />
-[Qingyong Hu](https://qingyonghu.github.io/), [Bo Yang](https://yang7879.github.io/), [Guangchi Fang]()
-, [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/),
-[Yulan Guo](http://yulanguo.me/), [Niki Trigoni](https://www.cs.ox.ac.uk/people/niki.trigoni/)
-, [Andrew Markham](https://www.cs.ox.ac.uk/people/andrew.markham/). <br />
-**[[Paper](https://arxiv.org/abs/2104.04891)] [[Video](https://youtu.be/Q6wICSRRw3s)]** <br />
+**Enhancing Weakly Supervised Point Cloud Semantic Segmentation via Dual Backbone Networks with Data Augmentation** <br />
+
 
 ### (1) Setup
 
@@ -21,14 +17,14 @@ This code has been tested with Python 3.5, Tensorflow 1.11, CUDA 9.0 and cuDNN 7
 - Clone the repository
 
 ```
-git clone --depth=1 https://github.com/QingyongHu/SQN && cd SQN
+git clone https://github.com/2023-xiaoying/Dual-Backbone-Networks-.git && cd DBN
 ```
 
 - Setup python environment
 
 ```
-conda create -n sqn python=3.5
-source activate sqn
+conda create -n dbn python=3.5
+source activate dbn
 pip install -r helper_requirements.txt
 sh compile_op.sh
 ```
@@ -48,7 +44,7 @@ python main_Semantic3D.py --mode train --gpu 0 --labeled_point 0.1%
 python main_Semantic3D.py --mode test --gpu 0 --labeled_point 0.1%
 ```
 
-Quantitative results achieved by our SQN:
+Quantitative results achieved by ours:
 
 | ![2](imgs/Semantic3D.gif)   | ![z](imgs/SensatUrban.gif) |
 | ------------------------------ | ---------------------------- |
@@ -64,10 +60,10 @@ Quantitative results achieved by our SQN:
 If you find our work useful in your research, please consider citing:
 
 	@inproceedings{hu2021sqn,
-      title={SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds},
-      author={Hu, Qingyong and Yang, Bo and Fang, Guangchi and Guo, Yulan and Leonardis, Ales and Trigoni, Niki and Markham, Andrew},
-      booktitle={European Conference on Computer Vision},
-      year={2022}
+      title={Enhancing Weakly Supervised Point Cloud Semantic Segmentation via Dual Backbone Networks with Data Augmentation},
+      author={XiaoyingZhang,YuHu,YuzhuoLi,ZhoucanNan,QianYu},
+      booktitle={The Visual Computer},
+      year={2025}
     }
 
 ## Related Repos
