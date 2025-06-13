@@ -5,7 +5,7 @@
 
 # Enhancing Weakly Supervised Point Cloud Semantic Segmentation via Dual Backbone Networks with Data Augmentation
 
-This is the official repository of the **Semantic Query Network (SQN)**. For technical details, please refer to:
+This is the official repository of the **Dual Backbone Networks**. For technical details, please refer to:
 
 **Enhancing Weakly Supervised Point Cloud Semantic Segmentation via Dual Backbone Networks with Data Augmentation** <br />
 
