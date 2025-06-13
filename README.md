@@ -44,17 +44,6 @@ python main_Semantic3D.py --mode train --gpu 0 --labeled_point 0.1%
 python main_Semantic3D.py --mode test --gpu 0 --labeled_point 0.1%
 ```
 
-Quantitative results achieved by ours:
-
-| ![2](imgs/Semantic3D.gif)   | ![z](imgs/SensatUrban.gif) |
-| ------------------------------ | ---------------------------- |
-| ![2](imgs/Toronto3D.gif)   | ![z](imgs/S3DIS.gif) |
-
-### (3) Sparse Annotation Demo
-
-<p align="center"> <a href="https://youtu.be/N0UAeY31msY"><img src="imgs/Demo_cover.png" width="70%"></a> </p>
-
-
 ### Citation
 
 If you find our work useful in your research, please consider citing:
