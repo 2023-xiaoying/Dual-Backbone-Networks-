@@ -1,8 +1,3 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)
-[![GitHub Stars](https://img.shields.io/github/stars/QingyongHu/SQN?style=social)](https://github.com/QingyongHu/SQN)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=QingyongHu/SQN)
-[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
-
 # Enhancing Weakly Supervised Point Cloud Semantic Segmentation via Dual Backbone Networks with Data Augmentation
 
 This is the official repository of the **Dual Backbone Networks**. For technical details, please refer to:
